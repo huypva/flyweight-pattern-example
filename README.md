@@ -1,4 +1,4 @@
-The hello-world project
+The example project for Flyweight Pattern
 
 <div align="center">
     <img src="./assets/images/hello_world.png"/>
@@ -11,7 +11,7 @@ Make sure following software is installed on your PC
 ## Project structure
 ```
 .
-├── hello-world
+├── flyweight-pattern
 │   ├── pom.xml
 │   ...
 ├── pom.xml
@@ -23,7 +23,7 @@ Make sure following software is installed on your PC
 
 ```shell
 $ ./mvnw clean package
-$ java -jar ./hello-world/target/hello-world-0.0.1-SNAPSHOT.jar
+$ java -jar ./flyweight-pattern/target/flyweight-pattern-0.0.1-SNAPSHOT.jar
 ```
 
 ```shell
