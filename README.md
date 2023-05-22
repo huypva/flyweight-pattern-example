@@ -24,12 +24,11 @@ Make sure following software is installed on your PC
 ```shell
 $ ./mvnw clean package
 $ java -jar ./flyweight-pattern/target/flyweight-pattern-0.0.1-SNAPSHOT.jar
-```
-
-```shell
-Compare str1==str2: true
-Compare str3==str4: false
-Compare value str1.equals(str3): true
+10:29:47.762 [main] INFO io.github.huypva.flyweightpattern.Main -- Create a flyweight.
+10:29:47.764 [main] INFO io.github.huypva.flyweightpattern.ConcreteFlyweight -- Conduct ConcreteFlyweight key1.
+10:29:47.765 [main] INFO io.github.huypva.flyweightpattern.ConcreteFlyweight -- ConcreteFlyweight key1 operate.
+10:29:47.765 [main] INFO io.github.huypva.flyweightpattern.Main -- Use the flyweight existed
+10:29:47.765 [main] INFO io.github.huypva.flyweightpattern.ConcreteFlyweight -- ConcreteFlyweight key1 operate.
 ```
 
 ## Contribute
